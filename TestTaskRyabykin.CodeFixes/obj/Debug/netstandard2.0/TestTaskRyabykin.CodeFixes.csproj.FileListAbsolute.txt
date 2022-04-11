@@ -1,0 +1,15 @@
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.CodeFixes\bin\Debug\netstandard2.0\TestTaskRyabykin.CodeFixes.deps.json
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.CodeFixes\bin\Debug\netstandard2.0\TestTaskRyabykin.CodeFixes.dll
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.CodeFixes\bin\Debug\netstandard2.0\TestTaskRyabykin.CodeFixes.pdb
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.CodeFixes\bin\Debug\netstandard2.0\TestTaskRyabykin.dll
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.CodeFixes\bin\Debug\netstandard2.0\TestTaskRyabykin.pdb
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.CodeFixes\obj\Debug\netstandard2.0\TestTaskRyabykin.CodeFixes.csproj.AssemblyReference.cache
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.CodeFixes\obj\Debug\netstandard2.0\TestTaskRyabykin.CodeFixResources.resources
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.CodeFixes\obj\Debug\netstandard2.0\TestTaskRyabykin.CodeFixes.csproj.GenerateResource.cache
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.CodeFixes\obj\Debug\netstandard2.0\TestTaskRyabykin.CodeFixes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.CodeFixes\obj\Debug\netstandard2.0\TestTaskRyabykin.CodeFixes.AssemblyInfoInputs.cache
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.CodeFixes\obj\Debug\netstandard2.0\TestTaskRyabykin.CodeFixes.AssemblyInfo.cs
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.CodeFixes\obj\Debug\netstandard2.0\TestTaskRyabykin.CodeFixes.csproj.CoreCompileInputs.cache
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.CodeFixes\obj\Debug\netstandard2.0\TestTaskRyabykin.CodeFixes.csproj.CopyComplete
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.CodeFixes\obj\Debug\netstandard2.0\TestTaskRyabykin.CodeFixes.dll
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.CodeFixes\obj\Debug\netstandard2.0\TestTaskRyabykin.CodeFixes.pdb

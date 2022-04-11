@@ -1,0 +1,12 @@
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin\bin\Debug\netstandard2.0\TestTaskRyabykin.deps.json
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin\bin\Debug\netstandard2.0\TestTaskRyabykin.dll
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin\bin\Debug\netstandard2.0\TestTaskRyabykin.pdb
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin\obj\Debug\netstandard2.0\TestTaskRyabykin.csproj.AssemblyReference.cache
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin\obj\Debug\netstandard2.0\TestTaskRyabykin.Resources.resources
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin\obj\Debug\netstandard2.0\TestTaskRyabykin.csproj.GenerateResource.cache
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin\obj\Debug\netstandard2.0\TestTaskRyabykin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin\obj\Debug\netstandard2.0\TestTaskRyabykin.AssemblyInfoInputs.cache
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin\obj\Debug\netstandard2.0\TestTaskRyabykin.AssemblyInfo.cs
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin\obj\Debug\netstandard2.0\TestTaskRyabykin.csproj.CoreCompileInputs.cache
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin\obj\Debug\netstandard2.0\TestTaskRyabykin.dll
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin\obj\Debug\netstandard2.0\TestTaskRyabykin.pdb

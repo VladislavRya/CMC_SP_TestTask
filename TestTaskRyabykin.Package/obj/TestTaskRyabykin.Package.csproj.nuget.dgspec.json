@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin.Package\\TestTaskRyabykin.Package.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin.CodeFixes\\TestTaskRyabykin.CodeFixes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin.CodeFixes\\TestTaskRyabykin.CodeFixes.csproj",
+        "projectName": "TestTaskRyabykin.CodeFixes",
+        "projectPath": "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin.CodeFixes\\TestTaskRyabykin.CodeFixes.csproj",
+        "packagesPath": "C:\\Users\\ryaby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin.CodeFixes\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\NuGet.Config",
+          "C:\\Users\\ryaby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-public/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin\\TestTaskRyabykin.csproj": {
+                "projectPath": "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin\\TestTaskRyabykin.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin.Package\\TestTaskRyabykin.Package.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin.Package\\TestTaskRyabykin.Package.csproj",
+        "projectName": "TestTaskRyabykin",
+        "projectPath": "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin.Package\\TestTaskRyabykin.Package.csproj",
+        "packagesPath": "C:\\Users\\ryaby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin.Package\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\NuGet.Config",
+          "C:\\Users\\ryaby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-public/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin.CodeFixes\\TestTaskRyabykin.CodeFixes.csproj": {
+                "projectPath": "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin.CodeFixes\\TestTaskRyabykin.CodeFixes.csproj"
+              },
+              "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin\\TestTaskRyabykin.csproj": {
+                "projectPath": "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin\\TestTaskRyabykin.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin\\TestTaskRyabykin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin\\TestTaskRyabykin.csproj",
+        "projectName": "*TestTaskRyabykin.csproj*",
+        "projectPath": "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin\\TestTaskRyabykin.csproj",
+        "packagesPath": "C:\\Users\\ryaby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\TestTaskRyabykin\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ryaby\\source\\repos\\TestTaskRyabykin\\NuGet.Config",
+          "C:\\Users\\ryaby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-public/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "target": "Package",
+              "version": "[2.9.8, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
