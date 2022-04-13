@@ -38,7 +38,7 @@ namespace TestTaskRyabykin
             var methodDeclaration = (MethodDeclarationSyntax)context.Node;
             if (methodDeclaration.Identifier.Text.Length > M)
             {
-                context.ReportDiagnostic(Diagnostic.Create(Rule, context.Node.GetLocation(), methodDeclaration.Identifier.Text));
+                context.ReportDiagnostic(Diagnostic.Create(Rule, methodDeclaration.Identifier.GetLocation(), methodDeclaration.Identifier.Text));
             }
         }
     }

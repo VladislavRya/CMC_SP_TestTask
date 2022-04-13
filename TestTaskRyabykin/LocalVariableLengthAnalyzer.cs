@@ -29,21 +29,31 @@ namespace TestTaskRyabykin
             context.ConfigureGeneratedCodeAnalysis(GeneratedCodeAnalysisFlags.None);
             context.EnableConcurrentExecution();
 
-            context.RegisterSyntaxNodeAction(AnalyzeNode, SyntaxKind.LocalDeclarationStatement);
+            context.RegisterSyntaxNodeAction(AnalyzeNode, SyntaxKind.VariableDeclarator);
+            context.RegisterSyntaxNodeAction(AnalyzeNodeForEach, SyntaxKind.ForEachStatement);
         }
+
+        const int L = 10;
+
+        private void AnalyzeNodeForEach(SyntaxNodeAnalysisContext context)
+        {
+            var forEachStatement = (ForEachStatementSyntax)context.Node;
+            if (forEachStatement.Identifier.Text.Length > L)
+            {
+                context.ReportDiagnostic(Diagnostic.Create(Rule, forEachStatement.Identifier.GetLocation(), forEachStatement.Identifier.Text));
+            }
+        }
+
 
         private void AnalyzeNode(SyntaxNodeAnalysisContext context)
         {
-            const int L = 10;
-            var localDeclaration = (LocalDeclarationStatementSyntax)context.Node;
-            int index = 0;
-            foreach (var element in localDeclaration.Declaration.Variables)
+            ISymbol variableSymbol = context.SemanticModel.GetDeclaredSymbol((VariableDeclaratorSyntax)context.Node, context.CancellationToken);
+            if (variableSymbol.Kind == SymbolKind.Local)
             {
-                if (element.Identifier.Text.Length > L)
+                if (variableSymbol.Name.Length > L)
                 {
-                    context.ReportDiagnostic(Diagnostic.Create(Rule, context.Node.GetLocation(), localDeclaration.Declaration.Variables.ElementAt(index).Identifier.Text));
+                    context.ReportDiagnostic(Diagnostic.Create(Rule, variableSymbol.Locations[0], variableSymbol.Name));
                 }
-                ++index;
             }
         }
     }

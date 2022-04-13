@@ -53,7 +53,7 @@ class Program
 
 class Program
 {
-    [|public string X12345678910 { get; }|]
+    public string [|X12345678910|] { get; }
 }
 ");
         }
@@ -66,7 +66,7 @@ class Program
 class Program
 {
     private int x12345678910;
-    [|public int X12345678910 { set { x12345678910 = value; } }|]
+    public int [|X12345678910|] { set { x12345678910 = value; } }
 }
 ");
         }
@@ -79,10 +79,10 @@ class Program
 class Program
 {
     private string x12345678910;
-    [|public string X12345678910 { 
+    public string [|X12345678910|] { 
         get { return x12345678910; }
         set { x12345678910 = value; }
-    }|]
+    }
 }
 ");
         }
@@ -96,10 +96,10 @@ class Program
 {
     private string x12345678910;
     private int abc = 10;
-    [|public string X12345678910 { 
+    public string [|X12345678910|] { 
         get { return x12345678910; }
         set { x12345678910 = value; }
-    }|]
+    }
     public int Abc { get; }
 }
 ");

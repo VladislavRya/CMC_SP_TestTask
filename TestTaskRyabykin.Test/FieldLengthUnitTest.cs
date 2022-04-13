@@ -39,7 +39,7 @@ class Program
 
 class Program
 {
-    [|int x12345678910 = 10;|]
+    int [|x12345678910|] = 10;
 }
 ");
         }
@@ -51,7 +51,7 @@ class Program
 
 class Program
 {
-    [|string x12345678910;|]
+    string [|x12345678910|];
 }
 ");
         }
@@ -64,7 +64,7 @@ class Program
 
 class Program
 {
-    [|[|int x12345678910 = 10, abcd = 11, y12345678910 = 13;|]|]
+    int [|x12345678910|] = 10, abcd = 11, [|y12345678910|] = 13;
 }
 ");
         }
@@ -76,7 +76,7 @@ class Program
 
 class Program
 {
-    [|[|string x12345678910, abcd, y12345678910;|]|]
+    string [|x12345678910|], abcd, [|y12345678910|];
 }
 ");
         }
@@ -89,9 +89,9 @@ class Program
 class Program
 {
     int abc = 10;
-    [|string x12345678910 = ""Hello"";|]
-    [|int y12345678910;|]
-    [|[|int z12345678910 = 1, abcdef, w12345678910;|]|]
+    string [|x12345678910|] = ""Hello"";
+    int [|y12345678910|];
+    int [|z12345678910|] = 1, abcdef, [|w12345678910|];
 }
 ");
         }

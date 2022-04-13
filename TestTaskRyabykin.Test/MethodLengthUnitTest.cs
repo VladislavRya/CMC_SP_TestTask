@@ -27,10 +27,10 @@ class Program
 
 class Program
 {
-    [|public int f12345678910()
+    public int [|f12345678910|]()
     {
         return 123;
-    }|]
+    }
 }
 ");
         }
@@ -42,12 +42,12 @@ class Program
 
 class Program
 {
-    [|public int f12345678910()
+    public int [|f12345678910|]()
     {
         return 123;
-    }|]
+    }
 
-    [|private void g12345678910() {}|]
+    private void [|g12345678910|]() {}
 
     public int f()
     {

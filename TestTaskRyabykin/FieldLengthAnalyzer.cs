@@ -41,7 +41,7 @@ namespace TestTaskRyabykin
             {
                 if (element.Identifier.Text.Length > F)
                 {
-                    context.ReportDiagnostic(Diagnostic.Create(Rule, context.Node.GetLocation(), fieldDeclaration.Declaration.Variables.ElementAt(index).Identifier.Text));
+                    context.ReportDiagnostic(Diagnostic.Create(Rule, element.Identifier.GetLocation(), element.Identifier.Text));
                 }
                 ++index;
             }

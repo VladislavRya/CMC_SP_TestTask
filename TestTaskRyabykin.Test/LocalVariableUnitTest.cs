@@ -47,7 +47,7 @@ class Program
 {
     static void f()
     {
-        [|var x12345678910 = 0;|]
+        var [|x12345678910|] = 0;
     }
 }
 ");
@@ -62,7 +62,7 @@ class Program
 {
     static void f()
     {
-        [|int x12345678910;|]
+        int [|x12345678910|];
     }
 }
 ");
@@ -93,31 +93,15 @@ class Program
 {
     static void f()
     {    
-        [|[|string x12345678910, abcd, y12345678910;|]|]
+        string [|x12345678910|], abcd, [|y12345678910|];
     }
 }
 ");
         }
 
-        [TestMethod]
-        public async Task DifferentVariables_Diagnostic()
-        {
-            await VerifyCS.VerifyAnalyzerAsync(@"
-
-class Program
-{
-    static void f()
-    {    
-        [|string x12345678910, abcd;|]
-        int x = 1;
-        [|string s12345678910;|]
-    }
-}
-");
-        }
 
         [TestMethod]
-        public async Task VariableInsideExpression_NoDiagnostic()
+        public async Task VariableInsideForeach_NoDiagnostic()
         {
             await VerifyCS.VerifyAnalyzerAsync(@"
 using System;
@@ -128,16 +112,13 @@ class Program
     static void foo(int[] a)
     {
         foreach (var x in a){}
-        using (var x1 =  new StreamWriter(""xxxx""))
-        {
-        }
     }
 }
 ");
         }
 
         [TestMethod]
-        public async Task VariableInsideExpression_Diagnostic()
+        public async Task VariableInsideFor_NoDiagnostic()
         {
             await VerifyCS.VerifyAnalyzerAsync(@"
 using System;
@@ -147,10 +128,75 @@ class Program
 {
     static void foo(int[] a)
     {
-        foreach ([|var x12345678910 in a|]){}
-        using ([|var x10987654321 =  new StreamWriter(""xxxx"")|])
-        {
+        for (int i = 0; i < 10; ++i) { }
+    }
+}
+");
         }
+
+        [TestMethod]
+        public async Task VariableInsideUsing_NoDiagnostic()
+        {
+            await VerifyCS.VerifyAnalyzerAsync(@"
+using System;
+using System.IO;
+
+class Program
+{
+    static void foo(int[] a)
+    {
+        using (var x =  new StreamWriter(""xxxx"")) { }
+    }
+}
+");
+        }
+
+        [TestMethod]
+        public async Task VariableInsideForeach_Diagnostic()
+        {
+            await VerifyCS.VerifyAnalyzerAsync(@"
+using System;
+using System.IO;
+
+class Program
+{
+    static void foo(int[] a)
+    {
+        foreach (var [|x12345678910|] in a){}
+    }
+}
+");
+        }
+
+        [TestMethod]
+        public async Task VariableInsideFor_Diagnostic()
+        {
+            await VerifyCS.VerifyAnalyzerAsync(@"
+using System;
+using System.IO;
+
+class Program
+{
+    static void foo(int[] a)
+    {
+        for (int [|i12345678910|] = 0; i12345678910 < 10; ++i12345678910) { }
+    }
+}
+");
+        }
+
+        [TestMethod]
+        public async Task VariableInsideUsing_Diagnostic()
+        {
+            await VerifyCS.VerifyAnalyzerAsync(@"
+using System;
+using System.IO;
+
+class Program
+{
+    static void foo(int[] a)
+    {
+        using (var [|x12345678910|] =  new StreamWriter(""xxxx"")) { }
     }
 }
 ");

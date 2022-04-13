@@ -38,7 +38,7 @@ namespace TestTaskRyabykin
             var propertyDeclaration = (PropertyDeclarationSyntax)context.Node;
             if (propertyDeclaration.Identifier.Text.Length > F)
             {
-                context.ReportDiagnostic(Diagnostic.Create(Rule, context.Node.GetLocation(), propertyDeclaration.Identifier.Text));
+                context.ReportDiagnostic(Diagnostic.Create(Rule, propertyDeclaration.Identifier.GetLocation(), propertyDeclaration.Identifier.Text));
             }
         }
     }
