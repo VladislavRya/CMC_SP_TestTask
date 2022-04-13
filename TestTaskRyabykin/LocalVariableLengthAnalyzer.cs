@@ -38,13 +38,13 @@ namespace TestTaskRyabykin
             var localDeclaration = (LocalDeclarationStatementSyntax)context.Node;
             int index = 0;
             foreach (var element in localDeclaration.Declaration.Variables)
-	        {
+            {
                 if (element.Identifier.Text.Length > L)
                 {
                     context.ReportDiagnostic(Diagnostic.Create(Rule, context.Node.GetLocation(), localDeclaration.Declaration.Variables.ElementAt(index).Identifier.Text));
                 }
                 ++index;
-	        }
+            }
         }
     }
 }

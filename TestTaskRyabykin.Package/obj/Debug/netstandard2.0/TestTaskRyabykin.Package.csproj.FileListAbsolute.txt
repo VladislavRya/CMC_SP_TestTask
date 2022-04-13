@@ -1,0 +1,17 @@
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.Package\bin\Debug\netstandard2.0\tools\install.ps1
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.Package\bin\Debug\netstandard2.0\tools\uninstall.ps1
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.Package\bin\Debug\netstandard2.0\TestTaskRyabykin.Package.deps.json
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.Package\bin\Debug\netstandard2.0\TestTaskRyabykin.Package.dll
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.Package\bin\Debug\netstandard2.0\TestTaskRyabykin.Package.pdb
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.Package\bin\Debug\netstandard2.0\TestTaskRyabykin.CodeFixes.dll
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.Package\bin\Debug\netstandard2.0\TestTaskRyabykin.dll
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.Package\bin\Debug\netstandard2.0\TestTaskRyabykin.CodeFixes.pdb
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.Package\bin\Debug\netstandard2.0\TestTaskRyabykin.pdb
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.Package\obj\Debug\netstandard2.0\TestTaskRyabykin.Package.csproj.AssemblyReference.cache
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.Package\obj\Debug\netstandard2.0\TestTaskRyabykin.Package.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.Package\obj\Debug\netstandard2.0\TestTaskRyabykin.Package.AssemblyInfoInputs.cache
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.Package\obj\Debug\netstandard2.0\TestTaskRyabykin.Package.AssemblyInfo.cs
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.Package\obj\Debug\netstandard2.0\TestTaskRyabykin.Package.csproj.CoreCompileInputs.cache
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.Package\obj\Debug\netstandard2.0\TestTaskRyabykin.Package.csproj.CopyComplete
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.Package\obj\Debug\netstandard2.0\TestTaskRyabykin.Package.dll
+C:\Users\ryaby\source\repos\TestTaskRyabykin\TestTaskRyabykin.Package\obj\Debug\netstandard2.0\TestTaskRyabykin.Package.pdb
